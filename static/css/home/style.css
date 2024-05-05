@@ -1,0 +1,46 @@
+/* Sample CSS file */
+body{
+    background-color: rgb(40, 40, 40);
+    color: white;
+}
+
+.post{
+    background-color: rgb(26, 26, 26);
+    border-radius: 10px;
+}
+
+.post .square-image {
+    width: 100%; /* Ensure the image fills the container */
+    overflow: hidden; /* Hide any overflowing content */
+  }
+  
+  .post .square-image img {
+    width: 100%; /* Ensure the image fills the square container */
+    height: 100%; /* Ensure the image fills the square container */
+    object-fit: cover; /* Crop the image to cover the entire container while maintaining its aspect ratio */
+  }
+  
+
+  .story{
+    background-color: rgb(26, 26, 26);
+  }
+
+  .story .profile-picture {
+    position: relative;
+  }
+  
+  .story .profile-picture.new {
+    border: 3px solid transparent;
+    padding: 2px; /* Adjust padding as needed */
+    border-radius: 50%;
+    background: linear-gradient(45deg, #f09433, #e6683c);
+  }
+  
+  .story .profile-picture.new img {
+    border-radius: 50%;
+  }
+  
+  .story .profile-picture img {
+    border-radius: 50%;
+  }
+  
